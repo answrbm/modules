@@ -1,0 +1,5 @@
+rootProject.name = 'modules'
+include 'api'
+include 'db'
+include 'service'
+
