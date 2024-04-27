@@ -18,6 +18,10 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.30'
     implementation(project(":service"))
     implementation(project(":db"))
+
+    // https://mvnrepository.com/artifact/commons-codec/commons-codec
+    implementation 'commons-codec:commons-codec:1.16.1'
+
 }
 
 test {
